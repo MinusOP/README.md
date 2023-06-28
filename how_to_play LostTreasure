@@ -1,0 +1,25 @@
+HOW-TO-PLAY
+
+Here's a step-by-step guide on how to play the "Lost Treasure" game:
+
+    1) Upon running the program, a welcome message will be displayed, introducing the game and its objective.
+
+    2) he player is prompted to enter their choice of whether they want to play or not by typing 'Y' or 'N'. If 'Y' or 'y' is entered, the game begins. If 'N' or 'n' is entered, the program ends.
+
+    3) The player is then presented with a crossroads and two paths to choose from. The available choices are displayed, and the player is prompted to enter the corresponding number for their chosen path.
+
+    4) After selecting a path, the game progresses to a new scenario based on the chosen path. The player will encounter challenges or situations that require a decision.
+
+    5) The available choices for each scenario are dynamically updated and displayed using the linked list. The player must enter the corresponding number for their chosen option.
+
+    6) Depending on the player's choices, different outcomes will occur. If the player makes the correct choices, they will progress further in the game. However, making wrong choices or entering invalid inputs may lead to a "Game Over" message and the end of the game.
+
+    7) The game continues with new scenarios and decisions until the player either reaches the treasure at the heart of the forest or encounters a game-ending situation.
+
+    8) If the player successfully reaches the treasure, a congratulatory message is displayed, acknowledging their completion of the game. The ending may vary depending on the player's final choice regarding the treasure chest.
+
+    9) If the player decides not to play by entering 'N' or 'n' at the beginning, a "Bye-Bye" message is displayed, and the program ends.
+
+    10) The game is interactive, and the player's choices determine the path they take and the outcome of the game. Experimentation and exploration are encouraged to discover different scenarios and endings.
+
+Remember to carefully read the descriptions, consider the options, and enter the corresponding number for the desired choice at each decision point.
