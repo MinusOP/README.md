@@ -1,0 +1,23 @@
+From the game, the features of the "Lost Treasure" game can be outlined as follows:
+
+1) Welcome Message: The game starts with a welcoming message that introduces the player to the game and sets the context of the adventure.
+
+2) User Input: The game prompts the player to enter their choice of whether they want to play or not by selecting 'Y' or 'N'.
+
+3) Dynamic Choices: The game utilizes a linked list data structure to dynamically manage and update the available choices for the player. The player is presented with different options at each decision point.
+
+4) Decision Making: The player is required to make decisions by selecting a corresponding number for their chosen option. The code validates the player's input and determines the next course of action based on their choice.
+
+5) Multiple Paths: The game offers branching paths, where the player's choices at each decision point lead to different scenarios and outcomes. This adds replayability and allows for different experiences based on the player's decisions.
+
+6) Challenges and Consequences: The player encounters challenges, such as facing a wild bear or a group of bandits, and must make choices that have consequences. Depending on their decisions, the player may succeed, fail, or face negative outcomes.
+
+7) Game Over: If the player makes an invalid choice or fails to overcome a challenge, the game ends with a "Game Over" message, indicating the unsuccessful completion of the quest.
+
+8) Successful Completion: If the player makes the right choices and successfully navigates through the forest, they reach the treasure at the heart of the forest. The game acknowledges their success and provides a congratulatory message.
+
+9) Narrative Elements: The game incorporates storytelling elements through descriptive messages that set the scene, describe the player's surroundings, and provide context for the choices and challenges they encounter.
+
+10) Reward System: Depending on the player's final choice regarding the treasure chest, the game provides different rewards and outcomes. This adds a sense of accomplishment and allows for different endings.
+
+Overall, the game features a text-based adventure with interactive decision-making, branching paths, challenges, consequences, and a goal of reaching the treasure while immersing the player in an engaging narrative.
