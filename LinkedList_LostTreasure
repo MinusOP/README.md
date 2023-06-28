@@ -1,0 +1,15 @@
+In the provided "Lost Treasure" game, a linked list is used to manage and dynamically update the available choices for the player at each decision point. Linked lists are a type of data structure where elements, in this case, the choices, are stored in nodes that are connected through pointers.
+
+In the code, the LinkedList class represents the linked list data structure. It has a private member head, which is a pointer to the first node in the list. Each node contains the text of a choice and a pointer to the next node in the list.
+
+Here's how linked lists play a role in the game:
+
+    1) Adding Choices: When the game starts, the available choices for the player are added to the linked list using the addNode method. Each new choice is added as a new node at the end of the list. This allows for the dynamic addition of choices as the game progresses.
+
+    2) Displaying Choices: The displayChoices method is used to traverse the linked list and display the available choices to the player. It iterates through each node, starting from the head, and prints the text of each choice.
+
+    3) Player Input Validation: The getPlayerChoice method validates the player's input by checking if the entered choice corresponds to a valid option in the linked list. It compares the player's input with the choice numbers (position) in the list. This ensures that the player selects a valid choice and returns the selected choice if it is valid.
+
+    4) Deleting Choices: The deleteNode method is used to remove choices from the linked list. In the game, choices that are no longer available, such as after the player has made a decision or reached a specific scenario, are deleted from the list. This ensures that only the relevant choices are displayed to the player at each decision point.
+
+By utilizing a linked list, the game can dynamically manage and update the available choices, provide a flexible structure for adding, deleting, and displaying choices, and ensure the validity of the player's input. Linked lists offer efficient insertion and deletion operations, making them suitable for handling the changing options in an interactive game "Lost Treasure."
